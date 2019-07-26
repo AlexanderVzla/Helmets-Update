@@ -35,9 +35,14 @@
         <prop actor="props/units/helmets/hele_phrygian_b8.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Hele Pilos Helmet-04">
+    <variant frequency="1" name="Hele Pilos Helmet-05">
       <props>
         <prop actor="props/units/helmets/hele_pilos.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Thracian Helmet-06">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b2.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
