@@ -18,7 +18,7 @@
   <group>
     <variant frequency="1" name="Masked">
       <props>
-        <prop actor="props/units/helmets/props/hele_phrygian_mask_bronze.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="No-Mask">

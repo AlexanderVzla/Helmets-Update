@@ -3,13 +3,16 @@
   <castshadow/>
   <group>
     <variant name="thracian-02">
-      <mesh>props/helmet/hele_thracian_b.dae</mesh>
+      <mesh>props/helmet/hele_thracian_b2.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/props/chalkaspides_high_crest.xml" attachpoint="crest"/>
+      </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Bronze">
       <textures>
-        <texture file="props/helmet/hele_thracian_02_bronze_br.png" name="baseTex"/>
+        <texture file="props/helmet/hele_thracian_02_bronze.png" name="baseTex"/>
         <texture file="props/helmet/hele_thracian_02_norm.png" name="normTex"/>
         <texture file="props/helmet/hele_thracian_02_spec.png" name="specTex"/>
       </textures>
@@ -19,11 +22,6 @@
     <variant frequency="1" name="Masked">
       <props>
         <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="No-Mask">
-      <props>
-        <prop actor="" attachpoint="root"/>
       </props>
     </variant>
   </group>
