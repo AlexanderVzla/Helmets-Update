@@ -16,14 +16,31 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Masked - Crest 01">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_b2_small.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Masked - Crest 02">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_b2.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
+      </props>
+    </variant>
     <variant frequency="1" name="Masked">
       <props>
         <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant frequency="1" name="No-Mask">
+    <variant frequency="1" name="Crested - 01">
       <props>
-        <prop actor="" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_b2_small.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Crested - 02">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_b2.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

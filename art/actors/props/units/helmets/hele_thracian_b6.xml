@@ -2,16 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="thracian-02">
-      <mesh>props/helmet/hele_thracian_b.dae</mesh>
+    <variant name="thracian-06">
+      <mesh>props/helmet/hele_thracian_d.dae</mesh>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Bronze">
       <textures>
-        <texture file="props/helmet/hele_thracian_02_bronze.png" name="baseTex"/>
-        <texture file="props/helmet/hele_thracian_02_norm.png" name="normTex"/>
-        <texture file="props/helmet/hele_thracian_02_spec.png" name="specTex"/>
+        <texture file="props/helmet/hele_thracian_06_bronze.png" name="baseTex"/>
+        <texture file="props/helmet/hele_thracian_06_norm.png" name="normTex"/>
+        <texture file="props/helmet/hele_thracian_06_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
