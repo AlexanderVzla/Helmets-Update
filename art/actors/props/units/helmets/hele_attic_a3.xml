@@ -2,16 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="attic-01">
-      <mesh>props/helmet/hele_attic_b.dae</mesh>
+    <variant name="attic-04">
+      <mesh>props/helmet/hele_attic_c.dae</mesh>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="Bronze">
       <textures>
-        <texture file="props/helmet/hele_attic_02_bronze.png" name="baseTex"/>
-        <texture file="props/helmet/hele_attic_02_norm.png" name="normTex"/>
-        <texture file="props/helmet/hele_attic_02_spec.png" name="specTex"/>
+        <texture file="props/helmet/hele_attic_04_bronze.png" name="baseTex"/>
+        <texture file="props/helmet/hele_attic_04_norm.png" name="normTex"/>
+        <texture file="props/helmet/hele_attic_04_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -29,6 +29,14 @@
     <variant frequency="1" name="No-Mask">
       <props>
         <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Mask-02">
+      <props>
+        <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_R"/>
+        <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_L"/>
       </props>
     </variant>
   </group>

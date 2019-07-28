@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Check Protection">
-      <mesh>props/helmet/props/hele_attic_mask_a.dae</mesh>
+      <mesh>props/helmet/props/hele_attic_mask_a1.dae</mesh>
       <textures>
         <texture file="props/helmet/hele_attic_01_bronze.png" name="baseTex"/>
         <texture file="props/helmet/hele_attic_01_norm.png" name="normTex"/>

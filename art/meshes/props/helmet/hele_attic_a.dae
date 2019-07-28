@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.54 commit date:2019-04-06, commit time:12:26, hash:cc73d59ad580</authoring_tool>
     </contributor>
-    <created>2019-07-27T12:50:14</created>
-    <modified>2019-07-27T12:50:14</modified>
+    <created>2019-07-27T20:22:36</created>
+    <modified>2019-07-27T20:22:36</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -100,6 +100,24 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
+        <node id="prop_feather_01" name="prop_feather_01" type="NODE">
+          <matrix sid="transform">0.1775921 2.84719e-8 -0.1166579 -0.1473605 0.02025742 0.2092526 0.03083857 -0.1391248 0.1148856 -0.03689689 0.1748941 0.4874459 0 0 0 1</matrix>
+        </node>
+        <node id="prop_feather_02" name="prop_feather_02" type="NODE">
+          <matrix sid="transform">0.2045304 1.26409e-8 -0.05757932 -0.07776731 0.009998537 0.2092526 0.03551635 -0.1168754 0.05670456 -0.0368969 0.2014231 0.6136287 0 0 0 1</matrix>
+        </node>
+        <node id="prop_feather_03" name="prop_feather_03" type="NODE">
+          <matrix sid="transform">0.2005676 -1.17002e-8 0.07014761 0.0662327 -0.012181 0.2092526 0.03482821 -0.1168754 -0.06908191 -0.03689689 0.1975205 0.6136287 0 0 0 1</matrix>
+        </node>
+        <node id="prop_feather_04" name="prop_feather_04" type="NODE">
+          <matrix sid="transform">0.1807816 -2.18156e-8 0.1116514 0.1406395 -0.01938805 0.2092526 0.03139242 -0.1391248 -0.1099552 -0.03689689 0.1780352 0.4874459 0 0 0 1</matrix>
+        </node>
+        <node id="prop_feather_R" name="prop_feather_R" type="NODE">
+          <matrix sid="transform">-7.5727e-9 0.1766298 -0.03114459 -0.1623463 -0.1732432 0.008060809 0.04571517 -0.12391 0.0464204 0.03008337 0.1706113 0.4217079 0 0 0 1</matrix>
+        </node>
+        <node id="prop_feather_L" name="prop_feather_L" type="NODE">
+          <matrix sid="transform">0.01587673 0.1762668 0.02908613 0.1617875 -0.1732432 0.008060846 0.04571516 -0.12391 0.04362088 -0.03214182 0.1709743 0.4217079 0 0 0 1</matrix>
+        </node>
       </node>
     </visual_scene>
   </library_visual_scenes>
