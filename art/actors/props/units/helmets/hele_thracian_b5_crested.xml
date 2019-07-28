@@ -4,9 +4,6 @@
   <group>
     <variant name="thracian-05">
       <mesh>props/helmet/hele_thracian_d.dae</mesh>
-      <props>
-        <prop actor="props/units/helmets/props/chalkaspides_high_crest.xml" attachpoint="crest"/>
-      </props>
     </variant>
   </group>
   <group>
@@ -19,9 +16,37 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Masked">
+    <variant frequency="1" name="Masked - Crest 01">
       <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_hair_b2_small.xml" attachpoint="root"/>
         <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Masked - Crest 02">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_hair_b2.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Masked - Crest 03">
+      <props>
+        <prop actor="props/units/helmets/props/chalkaspides_high_crest.xml" attachpoint="crest"/>
+        <prop actor="props/units/helmets/props/hele_thracian_mask_b2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Crested - 01">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_hair_b2_small.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Crested - 02">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_crest_hair_b2.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Crested - 03">
+      <props>
+        <prop actor="props/units/helmets/props/chalkaspides_high_crest.xml" attachpoint="crest"/>
       </props>
     </variant>
   </group>

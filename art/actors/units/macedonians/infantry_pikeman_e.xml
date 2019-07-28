@@ -42,12 +42,17 @@
     </variant>
     <variant frequency="1" name="Helmet-Thracian-Bronze-01">
       <props>
-        <prop actor="props/units/helmets/hele_thracian_b5.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hele_thracian_b5_crested.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Thracian-Bronze-02">
       <props>
-        <prop actor="props/units/helmets/hele_thracian_b2.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hele_thracian_b2_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Thracian-Bronze-03">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b4_crested.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

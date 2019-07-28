@@ -33,18 +33,12 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Mask-01">
+    <variant frequency="1" name="Feather-01">
       <props>
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_01"/>
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_02"/>
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_03"/>
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_04"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Mask-02">
-      <props>
-        <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_R"/>
-        <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_L"/>
       </props>
     </variant>
   </group>

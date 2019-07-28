@@ -27,6 +27,11 @@
         <prop actor="props/units/helmets/hele_attic_b3.xml" attachpoint="helmet"/>
       </props>
     </variant>
+    <variant frequency="1" name="Samnite-Attic-03">
+      <props>
+        <prop actor="props/units/helmets/hele_attic_b4.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
     <variant frequency="1" name="Rome-Montefortino-01">
       <props>
         <prop actor="props/units/helmets/rome_helmet_montefortino.xml" attachpoint="helmet"/>

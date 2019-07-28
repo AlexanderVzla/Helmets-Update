@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="attic-04">
-      <mesh>props/helmet/hele_attic_c.dae</mesh>
+      <mesh>props/helmet/hele_attic_b.dae</mesh>
     </variant>
   </group>
   <group>
@@ -29,6 +29,11 @@
     <variant frequency="1" name="No-Mask">
       <props>
         <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Visor">
+      <props>
+        <prop actor="props/units/helmets/props/hele_attic_visor_b.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
