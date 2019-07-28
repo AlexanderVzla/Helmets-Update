@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.54 commit date:2019-04-06, commit time:12:26, hash:cc73d59ad580</authoring_tool>
     </contributor>
-    <created>2019-07-28T10:56:34</created>
-    <modified>2019-07-28T10:56:34</modified>
+    <created>2019-07-28T12:40:36</created>
+    <modified>2019-07-28T12:40:36</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -88,9 +88,9 @@
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Escena" name="Escena">
-      <node id="Hele_Attic_05" name="Hele_Attic_05" type="NODE">
+      <node id="Hele_Attic_02" name="Hele_Attic_02" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Esfera_028-mesh" name="Hele_Attic_05">
+        <instance_geometry url="#Esfera_028-mesh" name="Hele_Attic_02">
           <bind_material>
             <technique_common>
               <instance_material symbol="Render-material" target="#Render-material">
@@ -100,11 +100,17 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
+        <node id="prop-feather_L" name="prop-feather_L" type="NODE">
+          <matrix sid="transform">0.01705731 0.1893741 0.031249 0.2254636 -0.1820269 0.006011467 0.06292918 -0.0250703 0.0608709 -0.03509008 0.1794253 0.381846 0 0 0 1</matrix>
+        </node>
+        <node id="prop-feather_R" name="prop-feather_R" type="NODE">
+          <matrix sid="transform">1.27754e-8 0.1766298 -0.03114458 -0.2254636 -0.1692154 0.01032325 0.05854604 -0.0250703 0.05944921 0.02938394 0.1666447 0.381846 0 0 0 1</matrix>
+        </node>
         <node id="prop_feather_01" name="prop_feather_01" type="NODE">
           <matrix sid="transform">0.1775921 2.84719e-8 -0.1166579 -0.1473605 0.02025742 0.2092526 0.03083857 -0.1391248 0.1148856 -0.03689689 0.1748941 0.4874459 0 0 0 1</matrix>
         </node>
         <node id="prop_feather_02" name="prop_feather_02" type="NODE">
-          <matrix sid="transform">0.2045304 1.83828e-8 -0.05757936 -0.07776731 0.009998543 0.2092526 0.03551637 -0.1168754 0.05670461 -0.03689691 0.2014231 0.6136287 0 0 0 1</matrix>
+          <matrix sid="transform">0.2045305 2.5477e-8 -0.05757936 -0.07776731 0.00999854 0.2092526 0.03551637 -0.1168754 0.05670463 -0.03689691 0.2014231 0.6136287 0 0 0 1</matrix>
         </node>
         <node id="prop_feather_03" name="prop_feather_03" type="NODE">
           <matrix sid="transform">0.2005676 -1.17002e-8 0.07014761 0.0662327 -0.012181 0.2092526 0.03482821 -0.1168754 -0.06908191 -0.03689689 0.1975205 0.6136287 0 0 0 1</matrix>
@@ -116,10 +122,22 @@
           <matrix sid="transform">0.01587673 0.1762668 0.02908613 0.1617875 -0.1732432 0.008060846 0.04571516 -0.12391 0.04362088 -0.03214182 0.1709743 0.4217079 0 0 0 1</matrix>
         </node>
         <node id="prop_feather_R" name="prop_feather_R" type="NODE">
-          <matrix sid="transform">-7.5727e-9 0.1766298 -0.03114459 -0.1623463 -0.1732432 0.008060808 0.04571518 -0.12391 0.0464204 0.03008336 0.1706113 0.4217079 0 0 0 1</matrix>
+          <matrix sid="transform">-3.03237e-8 0.1897642 -0.03346049 -0.1979207 -0.1861257 0.008660194 0.04911459 -0.12391 0.04987227 0.03232038 0.183298 0.4217079 0 0 0 1</matrix>
+        </node>
+        <node id="prop_wing_R" name="prop_wing_R" type="NODE">
+          <matrix sid="transform">0.03090829 -0.006444796 -0.001136392 -0.2034265 0.006544217 0.03043872 0.005367173 -0.08122281 -2.43654e-10 -0.005486158 0.03111352 0.428428 0 0 0 1</matrix>
+        </node>
+        <node id="prop_wing_L" name="prop_wing_L" type="NODE">
+          <matrix sid="transform">0.03077813 0.007022996 0.001238344 0.2017206 -0.007131337 0.03031054 0.005344565 -0.08122281 -6.25602e-10 -0.005486153 0.03111352 0.428428 0 0 0 1</matrix>
+        </node>
+        <node id="prop-wing_L" name="prop-wing_L" type="NODE">
+          <matrix sid="transform">0.03077813 0.007022995 0.001238344 0.210061 -0.007128077 0.03013084 0.006282679 -0.1654112 2.15578e-4 -0.006399927 0.03093774 0.3018245 0 0 0 1</matrix>
+        </node>
+        <node id="prop-wing_R" name="prop-wing_R" type="NODE">
+          <matrix sid="transform">0.03090829 -0.006444796 -0.001136392 -0.2100609 0.006541226 0.03025897 0.006305274 -0.1654112 -1.9783e-4 -0.006403806 0.03093706 0.3018245 0 0 0 1</matrix>
         </node>
         <node id="prop_rome_crest" name="prop_rome_crest" type="NODE">
-          <matrix sid="transform">1 0 0 0 0 0.9848076 0.1736482 -0.009333993 0 -0.1736482 0.9848076 0.5631509 0 0 0 1</matrix>
+          <matrix sid="transform">1 0 0 0 0 0.9848074 0.1736483 -0.009333993 0 -0.1736483 0.9848074 0.5631509 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

@@ -4,6 +4,8 @@
   <group>
     <variant name="attic-04">
       <mesh>props/helmet/hele_attic_c.dae</mesh>
+      <props>
+      </props>
     </variant>
   </group>
   <group>
@@ -33,10 +35,16 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Feather-02">
+    <variant frequency="1" name="Feather-01">
       <props>
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_R"/>
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_L"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Winged-01">
+      <props>
+        <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_R"/>
+        <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_L"/>
       </props>
     </variant>
   </group>
