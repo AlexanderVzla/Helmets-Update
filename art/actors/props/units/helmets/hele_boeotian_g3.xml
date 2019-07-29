@@ -9,7 +9,7 @@
   <group>
     <variant frequency="1" name="Bronze">
       <textures>
-        <texture file="props/helmet/hele_boeotian_03_bronze.png" name="baseTex"/>
+        <texture file="props/helmet/hele_boeotian_03_gold.png" name="baseTex"/>
         <texture file="props/helmet/hele_boeotian_03_norm.png" name="normTex"/>
         <texture file="props/helmet/hele_boeotian_03_spec.png" name="specTex"/>
       </textures>
