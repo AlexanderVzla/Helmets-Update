@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.54 commit date:2019-04-06, commit time:12:26, hash:cc73d59ad580</authoring_tool>
     </contributor>
-    <created>2019-07-28T12:28:37</created>
-    <modified>2019-07-28T12:28:37</modified>
+    <created>2019-07-29T09:51:27</created>
+    <modified>2019-07-29T09:51:27</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -100,11 +100,17 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
-        <node id="prop-wing_R" name="prop-wing_R" type="NODE">
-          <matrix sid="transform">0.02968341 -0.00618939 -0.001091357 -0.2017363 0.006444795 0.02902363 0.01068844 -0.1348415 -0.001136392 -0.01068844 0.02970884 0.3625368 0 0 0 1</matrix>
+        <node id="prop_feather_L" name="prop.feather_L" type="NODE">
+          <matrix sid="transform">0.01635551 0.1453538 0.02985177 0.1714522 -0.1898237 0.01676059 -0.02318632 -0.1499971 -0.02626783 -0.02299287 0.1877079 0.3875182 0 0 0 1</matrix>
         </node>
-        <node id="prop-wing_L" name="prop-wing_L" type="NODE">
-          <matrix sid="transform">0.0295584 0.006744676 0.001189269 0.2017363 -0.007022995 0.0288974 0.01066618 -0.1348415 0.001238343 -0.01066618 0.02971277 0.3625368 0 0 0 1</matrix>
+        <node id="prop_feather_R" name="prop.feather_R" type="NODE">
+          <matrix sid="transform">-2.70707e-8 0.1354257 -0.02972882 -0.1714522 -0.1780134 -0.003035113 -0.02142943 -0.1499971 -0.02189289 0.02467865 0.174245 0.3875182 0 0 0 1</matrix>
+        </node>
+        <node id="prop_wing_R" name="prop_wing_R" type="NODE">
+          <matrix sid="transform">0.02968341 -0.006189391 -0.001091357 -0.1953647 0.006476203 0.02933348 0.009785466 -0.03332265 -9.41048e-4 -0.009806179 0.03001837 0.4757184 0 0 0 1</matrix>
+        </node>
+        <node id="prop_wing_L" name="prop_wing_L" type="NODE">
+          <matrix sid="transform">0.0295584 0.006744676 0.001189269 0.1937265 -0.007057221 0.02920663 0.009763092 -0.03332265 0.001025474 -0.009787741 0.03002162 0.4757184 0 0 0 1</matrix>
         </node>
       </node>
     </visual_scene>

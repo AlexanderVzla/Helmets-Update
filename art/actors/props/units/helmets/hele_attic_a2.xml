@@ -41,6 +41,12 @@
         <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_04"/>
       </props>
     </variant>
+    <variant frequency="1" name="Winged-01">
+      <props>
+        <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_R"/>
+        <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_L"/>
+      </props>
+    </variant>
   </group>
   <material>basic_trans_parallax_spec.xml</material>
 </actor>
