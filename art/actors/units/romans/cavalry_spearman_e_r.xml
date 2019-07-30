@@ -21,16 +21,6 @@
         <prop actor="props/units/helmets/hele_boeotian_g_crest.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Boeotian-02">
-      <props>
-        <prop actor="props/units/helmets/hele_boeotian_g3.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Boeotian-03">
-      <props>
-        <prop actor="props/units/helmets/hele_boeotian_g4.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
   </group>
   <group>
     <variant file="biped/base_cavalry_spearman_relax_shield_a.xml"/>

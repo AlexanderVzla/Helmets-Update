@@ -18,16 +18,6 @@
         <prop actor="props/units/helmets/hele_boeotian_g.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Boeotian-02">
-      <props>
-        <prop actor="props/units/helmets/hele_boeotian_g3.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Boeotian-03">
-      <props>
-        <prop actor="props/units/helmets/hele_boeotian_g4.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
   </group>
   <group>
     <variant frequency="1" name="Chainmail-Plain">
