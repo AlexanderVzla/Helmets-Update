@@ -4,6 +4,9 @@
   <group>
     <variant name="boeotian-04">
       <mesh>props/helmet/hele_boeotian_d.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/props/hele_boeotian_hair.xml" attachpoint="hair"/>
+      </props>
     </variant>
   </group>
   <group>
