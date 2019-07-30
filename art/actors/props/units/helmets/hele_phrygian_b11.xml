@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Phrygian-11">
-      <mesh>props/helmet/hele_phrygian_k.dae</mesh>
+      <mesh>props/helmet/hele_phrygian_k2.dae</mesh>
       <props>
         <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_R"/>
         <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_L"/>

@@ -36,11 +36,6 @@
         <prop actor="props/units/helmets/hele_phrygian_a11.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Rome-Montefortino-01">
-      <props>
-        <prop actor="props/units/helmets/rome_helmet_montefortino_c.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
   </group>
   <group>
     <variant frequency="2" name="pectoral-tripledisc">

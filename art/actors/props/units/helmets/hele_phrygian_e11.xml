@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Phrygian-11">
-      <mesh>props/helmet/hele_phrygian_k1.dae</mesh>
+      <mesh>props/helmet/hele_phrygian_k2.dae</mesh>
       <props>
         <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_R"/>
         <prop actor="props/units/helmets/props/hele_attic_wings.xml" attachpoint="wing_L"/>
@@ -22,25 +22,20 @@
   <group>
     <variant frequency="1" name="Mask-01">
       <props>
+        <prop actor="props/units/helmets/props/hele_phrygian_crest_k.xml" attachpoint="root"/>
         <prop actor="props/units/helmets/props/hele_attic_mask_b1.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="Mask-02">
       <props>
+        <prop actor="props/units/helmets/props/hele_phrygian_crest_k.xml" attachpoint="root"/>
         <prop actor="props/units/helmets/props/hele_attic_mask_b2.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="No-Mask">
       <props>
+        <prop actor="props/units/helmets/props/hele_phrygian_crest_k.xml" attachpoint="root"/>
         <prop actor="" attachpoint="root"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Feather-01">
-      <props>
-        <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_R"/>
-        <prop actor="props/units/helmets/props/helmet_feather_a.xml" attachpoint="feather_L"/>
       </props>
     </variant>
   </group>
