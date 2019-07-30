@@ -10,16 +10,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="montefortino-conical-standard-feather-tri">
-      <mesh>props/helmet/rome_montefortino_a_3.dae</mesh>
-      <props>
-        <prop actor="props/units/helmets/props/helmet_feather_c.xml" attachpoint="feather_mid"/>
-        <prop actor="props/units/helmets/props/helmet_feather_b.xml" attachpoint="feather_mid"/>
-      </props>
-      <textures>
-        <texture file="props/helmet/rome_montefortino_bronze.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="3" name="montefortino-dome-feather-quad">
       <mesh>props/helmet/rome_montefortino_b_2.dae</mesh>
       <props>
