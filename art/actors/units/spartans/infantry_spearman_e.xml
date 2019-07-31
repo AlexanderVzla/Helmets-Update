@@ -17,24 +17,44 @@
         <prop actor="props/units/helmets/hele_corinthian_e1.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="3" name="Helmet-Corinthian-02">
+    <variant frequency="3" name="Helmet-Corinthian_02">
       <props>
         <prop actor="props/units/helmets/hele_corinthian_e2.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="3" name="Helmet-Corinthian-03">
+    <variant frequency="3" name="Helmet-Corinthian_03">
       <props>
         <prop actor="props/units/helmets/hele_corinthian_e3.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="3" name="Helmet-Corinthian-04">
+    <variant frequency="3" name="Helmet-Corinthian_04">
       <props>
         <prop actor="props/units/helmets/hele_corinthian_e4.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Helmets-Illyrian-Chalcidean-Varieties">
+    <variant frequency="1" name="Helmets-Thracian-01">
       <props>
-        <prop actor="props/units/helmets/hele_hoplite_e2.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/hele_thracian_b5_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Chalcidean Helmet-01">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a1.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Chalcidean Helmet-02">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Chalcidean Helmet-03">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a3.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Hele Chalcidean Helmet-04">
+      <props>
+        <prop actor="props/units/helmets/hele_chalcidean_a4.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
