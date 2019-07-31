@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="boeotian-02">
+    <variant name="Pilos-02">
       <mesh>props/helmet/hele_pilos_b.dae</mesh>
     </variant>
   </group>
